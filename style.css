@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grandstander', cursive;
+    
+}
+body{
+    background-color: rgb(213, 231, 225);
+}
+h1{
+    text-align: center;
+    margin-top: 5vh;
+}
+#canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    width: 600px;
+    height: 55vh;
+    border: 2px solid black;
+    background-image: url('background-purple.png');
+
+}
+.btn {
+    text-align: center;
+    margin-top: 6vh;
+     
+}
+.start{
+    padding: 25px;
+    background-color: darkorchid;
+    border-radius: 100px;
+    color: white;
+    border: none;
+}
+.start:focus{
+    outline: none;
+}
+.start:hover{
+    background-color: rgb(94, 14, 134);
+    color: wheat;
+
+}
